@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AJALUGU"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2005. aasta juulis ostis Google ära pisikese tarkvaraettevõtte Android, mis tegutses Californias Palo Altos. Sel ajal oli ettevõttest vähe teada peale selle, et ta tootis mobiilseadmetele tarkvara. Androidi töötajad, sealhulgas Andy Rubin, jätkasid tööd Google'i heaks.
+
+Rubini juhitav töörühm töötas välja mobiilseadmete platvormi, mis põhines Linuxi tuumal. Seda levitasid käsitelefonide tootjad ja mobiilsideoperaatorid, sest see süsteem oli paindlik ja uuendatav. Google oli varem teatanud paljudele riistvarakomponente ja tarkvara tootvatele partneritele, et see platvorm on Google'i partneritele avatud mitmesuguse koostöö jaoks.
+
+2006. aasta detsembris hakkasid levima kuuldused, et Google kavatseb mobiiltelefone müüma hakata. BBC ja The Wall Street Journali uurimused näitasid, et Google soovib oma otsimootori ja rakenduste lisamist mobiiltelefonidele ning töötab kõvasti selle eesmärgi saavutamiseks. Trüki- ja võrgumeediaväljaanded teatasid peagi, et Google töötab välja omaenda tootesarja mobiiltelefoni. Järgnesid teadaanded, et Google on määranud kindlaks oma toodete tehnilised andmed ning näidanud oma prototüüpe mobiiltelefonitootjatele ja võrguoperaatoritele. 2007. aasta septembris teatas ajakiri InformationWeek, et Google on esitanud hulgaliselt patenditaotlusi mobiiltelefonide valdkonnas.
+
+Lõpuks tutvustas Google oma nutitelefoni Nexus One, mis kasutas operatsioonisüsteemi Android. Seadet tootis Taiwanis asuv HTC Corporation ja müük algas 5. jaanuarist 2010. Google teatas 16. veebruaril 2010, et päevas saadetakse välja 60 000 Android OS-iga mobiiltelefoni."
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

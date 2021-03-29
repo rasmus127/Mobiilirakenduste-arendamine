@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LITSENTS"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kui välja arvata mõned uuenduste perioodid, on Android olnud saadaval 21. oktoobrist 2008, 'free and open source software' (tasuta ja avatud lähtekoodiga tarkvara) litsentsi alusel. Google avaldas Linuxi tuuma uuenduste lähtekoodi GNU üldise avaliku litsentsi (GPL) versiooni 2 alusel. Ülejäänud kood (võrk, tarkvara kogumik ja ka telefonipinu) aga avaldati Apache'i litsentsiversiooni 2 alusel. Selle litsentsi alusel tohivad edasimüüjad lisada täiendusi ilma neid avatud lähtekoodi kogukonnale varem näitamata. Samuti avaldab Google ülevaadatud probleemid, et need oleks soovijatele nähtavad ja neid oleks võimalik kommenteerida. Open Handset Alliance töötab välja Androidi osa, mis seisneb muudatustes kerneli tuumas ning selle lähtekood on avalik ja saadaval GPL litsentsi alusel. Ülejäänud osa Androidist töötatakse välja privaatselt, selle lähtekood avaldatakse tervikliku versiooni ilmudes. Tavaliselt teeb Google koostööd riistvara tootva firmaga, et välja töötada uut Androidi versiooni kasutav lipulaeva seade. Pärast seadme jõudmist poelettidele avaldatakse ka selle versiooni lähtekood.
+Ehkki Android on avatud lähtekoodiga, ei saa seadmete tootjad kasutada Google Androidi kaubamärki enne, kui Google on tõendanud, et seade järgib nende sobivust määratlevat dokumenti algupärase pealkirjaga 'Compatibility Definition Document' (CDD)."
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.329"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
