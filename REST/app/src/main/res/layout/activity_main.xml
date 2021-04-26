@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:textColor="#fff"
+        android:background="@color/teal_200"
+        android:text="GET"
+        android:id="@+id/get_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/get_respone_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/get_data"
+        android:layout_marginTop="112dp"
+        android:padding="10dp"
+        android:text="Response : "
+        android:textColor="#000" />
+
+    <View
+        android:id="@+id/border"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/get_respone_data"
+        android:layout_marginTop="116dp"
+        android:layout_marginBottom="20dp"
+        android:background="#868686" />
+
+    <Button
+        android:textColor="#fff"
+        android:background="@color/teal_200"
+        android:text="POST"
+        android:id="@+id/post_data"
+        android:layout_below="@id/border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Response : "
+        android:id="@+id/post_respone_data"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:layout_below="@id/post_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="61dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="78dp"
+        android:layout_marginLeft="170dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/editTextTextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/get_respone_data"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ID" />
+
+    <EditText
+        android:id="@+id/editTextTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/post_data"
+        android:layout_marginTop="89dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/editTextTextJob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/post_data"
+        android:layout_marginTop="146dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Job" />
+
+
+</RelativeLayout>
