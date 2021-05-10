@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="image_type">
+        <item>Color</item>
+        <item>Greyscale</item>
+        <item>Sepia</item>
+        <item>Negative</item>
+        <item>Gaussian Blur</item>
+        <item>Motion Blur</item>
+        <item>Sharpen</item>
+        <item>Canny Edges</item>
+    </string-array>
+</resources>
